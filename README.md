@@ -53,7 +53,7 @@ Interact with the model to generate responses:
 
 ```bash
 Question: What is your name?
-Response: I am a simple GPT model.
+Response: i am eliks 
 ```
 
 # License
