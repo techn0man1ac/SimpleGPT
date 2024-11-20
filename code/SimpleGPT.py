@@ -6,7 +6,7 @@ import simpleGPTDict as eds
 # Model parameters
 embedding_dim = 128           # Dimension of the word embeddings
 num_heads = 4                 # Number of attention heads in Multi-Head Attention
-ff_dim = 4096                 # Dimension of the feed-forward network (FFN)
+ff_dim = 1024                 # Dimension of the feed-forward network (FFN)
 num_layers = 4                # Number of transformer encoder layers
 sequence_length = 32          # Maximum sequence length for input data
 vocab_size = 10000            # Size of the vocabulary (update after tokenizer adaptation)
@@ -15,7 +15,7 @@ vocab_size = 10000            # Size of the vocabulary (update after tokenizer a
 batch_size_set = 64           # Batch size for training
 epoch_set = 200               # Number of epochs to train
 learning_rate_set = 0.000765  # Initial learning rate
-decay_rate_set = 0.85         # Learning rate decay rate
+decay_rate_set = 0.15         # Learning rate decay rate
 
 # Path to save or load the model
 model_path = "C:\\Projects\\vscode-basics\\GoIT-Python-Data-Science\\MyProjects\\SimpleGPT\\code\\"
