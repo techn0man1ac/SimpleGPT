@@ -18,7 +18,7 @@ learning_rate_set = 0.000765  # Initial learning rate
 decay_rate_set = 0.15         # Learning rate decay rate
 
 # Path to save or load the model
-model_path = "C:\\Projects\\vscode-basics\\GoIT-Python-Data-Science\\MyProjects\\SimpleGPT\\code\\"
+model_path = "C:\\Projects\\SimpleGPT\\code\\"
 
 # Dataset preparation
 # Prepares the dataset by adding start and end tokens for questions and answers
